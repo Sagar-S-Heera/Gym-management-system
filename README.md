@@ -3,7 +3,7 @@ Gym Management System shall enable the user to add members to a gym and manage t
 Database is implemented using MySQL.<br />
 Background colors to each of the activities can be added.
 
-## Sample-shots
+## Screen-shots
 |<img src="/screen-shots/homepage.png" width="700" height="400">|
 |:--:| 
 | Homepage |
