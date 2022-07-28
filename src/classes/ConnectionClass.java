@@ -9,7 +9,7 @@ public class ConnectionClass {
 	ConnectionClass(){
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/gym_management","root", "9035");
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/gym_management","root", "");
 			stm=con.createStatement();
 			if(con.isClosed())
 				System.out.println("Connection lost!");
